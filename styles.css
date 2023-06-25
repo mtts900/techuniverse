@@ -744,6 +744,13 @@ input[name="sl"]{
     box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.4);
 }
 
+.principal-content .text-content-first p a:hover{
+    background-image: linear-gradient(to right,  #00aeff, #00268d);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(255,255,255,1);
+    box-shadow: 0px 0px 5px 1px rgba(10,10,10,0.4);
+}
+
 .principal-content .text-content-second{
     display: flex;
     flex-direction: column;
@@ -808,6 +815,14 @@ input[name="sl"]{
     box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.4);
 }
 
+.principal-content .text-content-second p a:hover{
+    background-image: linear-gradient(to right,  #00aeff, #00268d);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(255,255,255,1);
+    box-shadow: 0px 0px 5px 1px rgba(10,10,10,0.4);
+}
+
+
 .principal-content .text-content-third{
     display: flex;
     flex-direction: column;
@@ -869,6 +884,12 @@ input[name="sl"]{
     -webkit-box-shadow: 0px 0px 5px 1px rgba(255,255,255,1);
     -moz-box-shadow: 0px 0px 5px 1px rgba(255,255,255,1);
     box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.4);
+}
+.principal-content .text-content-third p a:hover{
+    background-image: linear-gradient(to right,  #00aeff, #00268d);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(255,255,255,1);
+    box-shadow: 0px 0px 5px 1px rgba(10,10,10,0.4);
 }
 
 .page-about-content{
@@ -984,7 +1005,6 @@ footer{
 }
 
 footer nav{
-    position: relative;
     height: 100%;
     width: 100%;
     display: flex;
@@ -1014,8 +1034,7 @@ footer nav .left-foot a:hover{
     scroll-behavior: smooth;
 }
 footer nav .middle-foot{
-    position: relative;
-    width: 45%;
+    width: 34%;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -1025,29 +1044,13 @@ footer nav .middle-foot{
     font-size: 25px;
 }
 
-footer nav .middle-foot p{
-    position: relative;
-    z-index: 100;
-}
-
-footer nav .middle-foot img{
-    width: 150px;
-    z-index: 98;
-    position: absolute;
-    margin-left: 250px;
-}
-
-
-
 footer nav .right-foot{
-    position: relative;
-    width: 25%;
+    width: 33%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 footer nav .right-foot a{
-    position: relative;
     width: 35px;
     display: flex;
     padding: 15px;
