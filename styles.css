@@ -75,6 +75,30 @@ header nav .navbar a:root{
     cursor: pointer;
 }
 
+@keyframes title-animation{
+    0%{
+        letter-spacing:1em;
+        opacity:0
+    }
+    40%{
+        opacity:.6
+    }
+    100%{
+        letter-spacing:8px;
+        opacity:1}
+}
+
+@keyframes text-animation{
+    0%{
+        transform:scaleX(0);
+        opacity:1
+    }
+    100%{
+        transform:scaleX(1);
+        opacity:1
+    }
+}
+
 
 .menu{
     padding-top: 150px;
@@ -84,7 +108,11 @@ header nav .navbar a:root{
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right, #181818, #001a61, #1b51eb, #1b51eb, #001a61, #181818);
+    background-image: url(background_menu.jpg);
+    background-size: contain;
+    animation: animation-bg 10s linear infinite alternate-reverse none;
+
+    
 
 }
 .menu .menu-content{
@@ -96,11 +124,13 @@ header nav .navbar a:root{
     color: white;
     letter-spacing: 8px;
     font-size: 30px;
+    animation:title-animation .7s ease-in;
 }
 .menu .menu-content p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: text-animation .7s ease-in-out both;
 }
 .menu .menu-content a{
     font-family: 'Montserrat', sans-serif;
@@ -213,14 +243,24 @@ input[name="sl"]{
     
 }
 
+
+ @keyframes animation-bg{
+    0% {
+        background-position:100% 50%
+    }
+    100%{
+        background-position:0 50%
+    }
+}
+
 .page-content{
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-image: url(/images/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
+    animation: animation-bg 6s linear infinite alternate-reverse none;
 }
-
 .page-content .about-content{
     display: flex;
     flex-direction: column;
@@ -352,13 +392,12 @@ input[name="sl"]{
 }
 
 
-
-
 .page-content-two{
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-image: url(/images/background.jpg);
+    background-image: url(background.jpg);
+    animation: animation-bg 6s linear infinite alternate-reverse none;
 }
 
 .page-content-two .about-content{
@@ -497,7 +536,8 @@ input[name="sl"]{
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-image: url(/images/background.jpg);
+    background-image: url(background.jpg);
+    animation: animation-bg 6s linear infinite alternate-reverse none;
 }
 
 .page-content-three .about-content{
@@ -639,8 +679,8 @@ input[name="sl"]{
     width: 100vw;
     display: flex;
     justify-content: center;
-    background-image: url(images/1.jpg);
-    background-size: cover;
+    background-image: url(1.jpg);
+    animation: animation-bg 5s infinite alternate-reverse none;
 }
 .principal-content .text-content-first{
     display: flex;
@@ -836,7 +876,9 @@ input[name="sl"]{
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-image: url(images/5.jpg);
+    background-image: url(5.jpg);
+    background-size: cover;
+    animation: animation-bg 3s linear infinite alternate-reverse none;
 }
 .page-about-content .title-content{
     display: flex;
@@ -991,4 +1033,5 @@ footer nav .right-foot a{
     display: flex;
     padding: 15px;
 }
+
 
