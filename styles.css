@@ -984,6 +984,7 @@ footer{
 }
 
 footer nav{
+    position: relative;
     height: 100%;
     width: 100%;
     display: flex;
@@ -1013,7 +1014,8 @@ footer nav .left-foot a:hover{
     scroll-behavior: smooth;
 }
 footer nav .middle-foot{
-    width: 34%;
+    position: relative;
+    width: 45%;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -1022,13 +1024,30 @@ footer nav .middle-foot{
     color: white;
     font-size: 25px;
 }
+
+footer nav .middle-foot p{
+    position: relative;
+    z-index: 100;
+}
+
+footer nav .middle-foot img{
+    width: 150px;
+    z-index: 98;
+    position: absolute;
+    margin-left: 250px;
+}
+
+
+
 footer nav .right-foot{
-    width: 33%;
+    position: relative;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 footer nav .right-foot a{
+    position: relative;
     width: 35px;
     display: flex;
     padding: 15px;
