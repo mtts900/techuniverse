@@ -686,7 +686,7 @@ input[name="sl"]{
     display: flex;
     justify-content: center;
     background-image: url(1.jpg);
-    background-size: cover;
+    background-size: contain;
     animation: animation-destaque 8s linear infinite alternate-reverse none;
 }
 .principal-content .text-content-first{
@@ -905,7 +905,6 @@ input[name="sl"]{
     display: flex;
     flex-direction: column;
     background-image: url(5.jpg);
-    background-size: cover;
     animation: animation-bg 3s linear infinite alternate-reverse none;
 }
 .page-about-content .title-content{
