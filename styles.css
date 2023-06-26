@@ -904,6 +904,7 @@ input[name="sl"]{
     display: flex;
     flex-direction: column;
     background-image: url(background_menu.jpg);
+	background-size: contain;
     animation: animation-bg 5s linear infinite alternate-reverse none;
 }
 .page-about-content .title-content{
