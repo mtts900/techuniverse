@@ -686,7 +686,6 @@ input[name="sl"]{
     display: flex;
     justify-content: center;
     background-image: url(1.jpg);
-    background-size: contain;
     animation: animation-destaque 5s linear infinite alternate-reverse none;
 }
 .principal-content .text-content-first{
@@ -904,7 +903,7 @@ input[name="sl"]{
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-image: url(5.jpg);
+    background-image: url(background_menu.jpg);
     animation: animation-bg 5s linear infinite alternate-reverse none;
 }
 .page-about-content .title-content{
@@ -1014,7 +1013,7 @@ footer nav{
     height: 100%;
     width: 100%;
     display: flex;
-    background-color: rgba(10, 10, 10, 0.4);
+    background-color: rgba(10, 10, 10, 0.6);
 }
 
 footer nav .left-foot{
