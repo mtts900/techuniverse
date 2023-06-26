@@ -685,7 +685,8 @@ input[name="sl"]{
     width: 100vw;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to right,  #181818, #1b51eb, #13338d);
+    background-image: url(1.jpg);
+    background-size: cover;
     animation: animation-destaque 8s linear infinite alternate-reverse none;
 }
 .principal-content .text-content-first{
