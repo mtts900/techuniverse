@@ -397,6 +397,7 @@ input[name="sl"]{
     width: 100vw;
     display: flex;
     background-image: url(background.jpg);
+    background-size: cover;
     animation: animation-bg 6s linear infinite alternate-reverse none;
 }
 
