@@ -258,7 +258,6 @@ input[name="sl"]{
     width: 100vw;
     display: flex;
     background-image: url(background.jpg);
-    background-size: cover;
     animation: animation-bg 6s linear infinite alternate-reverse none;
 }
 .page-content .about-content{
@@ -397,7 +396,6 @@ input[name="sl"]{
     width: 100vw;
     display: flex;
     background-image: url(background.jpg);
-    background-size: cover;
     animation: animation-bg 6s linear infinite alternate-reverse none;
 }
 
@@ -673,7 +671,14 @@ input[name="sl"]{
     -moz-box-shadow: 0px 6px 6px 3px rgba(255,255,255,0.3);
     box-shadow: 0px 3px 6px 3px rgba(255,255,255,0.5);
 }
-
+@keyframes animation-destaque{
+	0%{
+		background-position:0 100%
+	}
+	100%{
+		background-position:100% 0;
+	}
+}
 
 .principal-content{
     height: 100vh;
@@ -681,7 +686,7 @@ input[name="sl"]{
     display: flex;
     justify-content: center;
     background-image: url(1.jpg);
-    animation: animation-bg 5s infinite alternate-reverse none;
+    animation: animation-destaque 8s infinite;
 }
 .principal-content .text-content-first{
     display: flex;
