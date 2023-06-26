@@ -110,7 +110,7 @@ header nav .navbar a:root{
     flex-direction: column;
     background-image: url(background_menu.jpg);
     background-size: contain;
-    animation: animation-bg 10s linear infinite alternate-reverse none;
+    animation: animation-bg 5s linear infinite alternate-reverse none;
 
     
 
@@ -258,7 +258,7 @@ input[name="sl"]{
     width: 100vw;
     display: flex;
     background-image: url(background.jpg);
-    animation: animation-bg 6s linear infinite alternate-reverse none;
+    animation: animation-bg 5s linear infinite alternate-reverse none;
 }
 .page-content .about-content{
     display: flex;
@@ -396,7 +396,7 @@ input[name="sl"]{
     width: 100vw;
     display: flex;
     background-image: url(background.jpg);
-    animation: animation-destaque 8s linear infinite alternate-reverse none;
+    animation: animation-destaque 5s linear infinite alternate-reverse none;
 }
 
 .page-content-two .about-content{
@@ -536,7 +536,7 @@ input[name="sl"]{
     width: 100vw;
     display: flex;
     background-image: url(background.jpg);
-    animation: animation-bg 6s linear infinite alternate-reverse none;
+    animation: animation-bg 5s linear infinite alternate-reverse none;
 }
 
 .page-content-three .about-content{
@@ -687,7 +687,7 @@ input[name="sl"]{
     justify-content: center;
     background-image: url(1.jpg);
     background-size: contain;
-    animation: animation-destaque 8s linear infinite alternate-reverse none;
+    animation: animation-destaque 5s linear infinite alternate-reverse none;
 }
 .principal-content .text-content-first{
     display: flex;
@@ -905,7 +905,7 @@ input[name="sl"]{
     display: flex;
     flex-direction: column;
     background-image: url(5.jpg);
-    animation: animation-destaque 8s linear infinite alternate-reverse none;
+    animation: animation-bg 5s linear infinite alternate-reverse none;
 }
 .page-about-content .title-content{
     display: flex;
